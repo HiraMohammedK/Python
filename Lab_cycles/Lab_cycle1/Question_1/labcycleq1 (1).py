@@ -32,6 +32,7 @@ def find_sum(d1,d2,d3,d4):
 def reverse_of_number(d1,d2,d3,d4):
   reverse = (d4*1000) + (d3*100) + (d2*10) + d1
   print("Reverse: ",reverse)
+    
 
 #function to find reverse
 def find_difference(d1,d2,d3,d4):
