@@ -36,7 +36,6 @@ class Box:
     return box.volume
    #function to print details of box
   def show(self):
-    print("Dimensions : ",self.length,self.breadth,self.height,sep = " ")
     print("Area       : ",self.area)
     print("Volume     : ",self.volume)
 N = int(input("Enter number of boxes to create:"))
