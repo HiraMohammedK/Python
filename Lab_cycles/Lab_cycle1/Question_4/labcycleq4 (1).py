@@ -41,7 +41,7 @@ def range_happy(l,u): #function to print happy numbers within a range
 def print_firstN(N): #function to print first n happy numbers
   count=0
   i=0
-  while count<20:
+  while count<N:
       i=i+1
       if check_happy(i):
         print(i,end=" ")
